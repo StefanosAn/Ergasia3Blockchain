@@ -1,0 +1,82 @@
+body{
+    background-color: aquamarine;
+    margin: 20px;
+    
+}
+.main{
+    margin: 0px 60px 0px 60px;
+}
+
+.allitems{
+    margin: 0px 22%;
+    width: auto;
+}
+
+.items{
+    display: inline-block;
+    margin: 8px;
+    border-style: groove;
+    background-color: white;
+}
+
+/* form{
+    margin-left: 30px;
+} */
+
+img{
+    width: 300px;
+    height: 250px;
+}
+
+button{
+    display: flex;
+    border-style: groove;
+    border-color: unset;
+    border-radius: 4px;
+}
+
+.ButtonsLeft{
+    display: inline-block;
+}
+.ButtonsRight{
+    /* display: inline-block; */
+    float: right;
+}
+
+.ButtonsLeft button, .ButtonsRight button{
+    background-color: deepskyblue;
+}
+
+.ButtonsRight button{
+    background-color: green;
+}
+
+.allitems h4{
+    background-color: lightgray;
+    border-bottom: 1px;
+    border-bottom-style: groove;
+}
+
+.OwnersButtons{
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right;
+}
+
+.OwnersButtons button{
+    background-color: orangered;
+    margin-left: 45%;
+}
+
+h4{
+    margin-top: 0px;
+}
+
+.accounts{
+    background-color: white;
+    border-bottom: 1px;
+    border-style: groove;
+    padding: 0px 4px;
+}
